@@ -1,0 +1,96 @@
+.header {
+  z-index: 50;
+}
+
+.form__input {
+  outline: none;
+  background: #F1F1F1
+}
+
+.lower-header {
+  width: 100%;
+  height: 90px;
+}
+
+.massage-first {
+  position: relative;
+  background-color: #EFFEDD;
+}
+
+.massage-first::after {
+  display: inline-block;
+  position: absolute;
+  right: -12px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-bottom: 14px solid #EFFEDD;
+  content: " ";
+}
+
+.massage-second {
+  position: relative;
+}
+
+.massage-second::before {
+  display: inline-block;
+  position: absolute;
+  left: -10px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-bottom: 14px solid white;
+  content: " ";
+}
+
+.massage-third {
+  position: relative;
+  background-color: #EFFEDD;
+}
+
+.massage-third::after {
+  display: inline-block;
+  position: absolute;
+  right: -12px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-bottom: 14px solid #EFFEDD;
+  content: " ";
+}
+
+.time{
+  color: #69C35F;
+}
+
+.massage-text-name {
+  color: #69C35F;
+}
+
+.massages {
+  background-color: #DFE4E8;
+}
+
+.massage-content {
+  border-left: 2px solid #59C64B !important;
+}
+
+.upper-footer {
+  width: 100%;
+  height: 40px;
+}
+
+.footer {
+  width: 56.5%;
+  left: 35.9%;
+}
+
+.footer-form__input {
+  outline: none;
+}
